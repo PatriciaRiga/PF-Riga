@@ -34,7 +34,6 @@
     .navbar {
         background-color: lightgreen;
         padding: 15px;
-        margin: -20px;
         text-align: center;
         position: sticky;
         top: 0;
@@ -86,6 +85,12 @@
 
     }
 
+
+    .carousel-item img.custom{
+        height: 400px;
+        object-fit: cover;
+    }
+
     /* INDEX */
 
     h2 {
@@ -129,16 +134,15 @@
     .titulo-secundario {
         color: darkslategray;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-left: 10px;
         font-size: 30px;
         font-weight: bolder;
+        margin-left: 10px;
     }
 
     .titulo-terciario {
         color: darkslategray;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: 30px;
-        padding-left: 60px;
+        margin-left: 20px;
         font-size: 20px;
         font-weight: bold;
     }
@@ -173,7 +177,6 @@
 
     main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 20px;
     }
 
     #floatingTextarea {
