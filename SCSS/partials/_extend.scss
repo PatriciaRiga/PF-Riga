@@ -1,0 +1,16 @@
+.titulo-secundario {
+    color: $colornormal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: $fuentegrande;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.titulo-terciario {
+    @extend .titulo-secundario;
+    margin-left: 20px;
+    font-size: $fuentemediana;
+    font-weight: bold;
+}

@@ -1,0 +1,19 @@
+$temporada: "normal";
+
+@if($temporada =="normal") {
+    body {
+        background-color: $fondoprincipal;
+    }
+}
+
+@else if($temporada =="ofertas") {
+    body {
+        background-color: $fondoofertas;
+    }
+}
+
+@else {
+    body {
+        background-color: whitesmoke;
+    }
+}

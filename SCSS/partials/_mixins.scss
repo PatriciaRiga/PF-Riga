@@ -1,0 +1,15 @@
+@mixin sizes($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin listas($enlinea, $centro){
+display: $enlinea;
+text-align: $centro;
+}
+
+@mixin parrafos(){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
