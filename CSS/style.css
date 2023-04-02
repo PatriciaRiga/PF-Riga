@@ -52,12 +52,10 @@ header {
   top: 0;
   z-index: 1;
 }
-
 .navbar .botones a,
 .navbar ul a {
   color: black;
 }
-
 .navbar .botones a li,
 .navbar ul a li {
   padding: 8px;
@@ -79,7 +77,6 @@ a:link {
   text-decoration: none;
   text-align: center;
 }
-
 a:hover {
   background-color: rgb(209, 248, 209);
   color: black;
@@ -106,7 +103,6 @@ body {
   font-size: 15px;
   padding: 30px;
 }
-
 .footer-container .card-body {
   background-color: lightgreen;
 }
@@ -114,7 +110,6 @@ body {
 /* INDEX */
 .carousel-item img.custom {
   height: 400px;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -142,11 +137,9 @@ body {
   padding: 60px;
   text-align: left;
 }
-
 .formulario .form-control {
   background-color: lightcyan;
 }
-
 .formulario .botones-formulario {
   text-align: center;
 }
@@ -156,6 +149,6 @@ body {
     font-size: 2em;
     text-align: center;
   }
-} 
+}
 
 /*# sourceMappingURL=style.css.map */
