@@ -47,5 +47,6 @@ $RECYCLE.BIN/
 *.lnk
 *.pdf
 *backup-css
+*package.json
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
