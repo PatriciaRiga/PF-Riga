@@ -13,3 +13,8 @@ text-align: $centro;
     font-size: 1rem;
     text-align: center;
 }
+
+@mixin fotos(){
+    border-radius: 30px;
+    padding: 15px;
+}

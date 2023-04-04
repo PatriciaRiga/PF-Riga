@@ -14,15 +14,15 @@ header {
     background-position: 0;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: lightyellow;
     font-size: xx-large;
     padding: $relleno;
-}
 
-.titulo-principal {
-    font-family: "tires", serif;
-    text-align: right;
-    font-size: 3em;
+    .titulo-principal {
+        font-family: "tires", serif;
+        text-align: right;
+        font-size: 3em;
+    }
 }
 
 .navbar {
@@ -53,18 +53,18 @@ header {
 
 a {
     color: black;
-}
 
-a {
-    &:link {
-        text-decoration: none;
-        text-align: center;
+    & {
+        &:link {
+            text-decoration: none;
+            text-align: center;
 
-    }
+        }
 
-    &:hover {
-        background-color: rgb(209, 248, 209);
-        color: black;
+        &:hover {
+            background-color: rgb(209, 248, 209);
+            color: black;
+        }
     }
 }
 
@@ -110,8 +110,12 @@ body {
 /* INDEX */
 
 .carousel-item img.custom {
-    height: 400px;
-    object-fit: cover;
+    height: 300px;
+    object-fit: fill;
+}
+
+.foto-inicio {
+    @include fotos;
 }
 
 
@@ -123,12 +127,10 @@ body {
 }
 
 
-
 /* PRODUCTOS */
 
 .gallery img {
-    border-radius: 30px;
-    padding: 15px;
+    @include fotos;
     filter: brightness();
     -webkit-filter: brightness(50%);
     -webkit-transition: all 1s ease;
@@ -140,12 +142,9 @@ body {
     &:hover {
         filter: brightness();
         -webkit-filter: brightness(100%);
+        transform: scale(1.1);
     }
 }
-
-
-
-
 
 
 /* NUESTRA MISION */

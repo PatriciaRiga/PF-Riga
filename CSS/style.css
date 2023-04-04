@@ -33,12 +33,11 @@ header {
   background-position: 0;
   background-size: cover;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: lightyellow;
   font-size: xx-large;
   padding: 30px;
 }
-
-.titulo-principal {
+header .titulo-principal {
   font-family: "tires", serif;
   text-align: right;
   font-size: 3em;
@@ -73,7 +72,6 @@ header {
 a {
   color: black;
 }
-
 a:link {
   text-decoration: none;
   text-align: center;
@@ -123,8 +121,13 @@ body {
 
 /* INDEX */
 .carousel-item img.custom {
-  height: 400px;
-  object-fit: cover;
+  height: 300px;
+  object-fit: fill;
+}
+
+.foto-inicio {
+  border-radius: 30px;
+  padding: 15px;
 }
 
 /* DONDE ESTAMOS */
@@ -148,6 +151,7 @@ body {
 .gallery img:hover {
   filter: brightness();
   -webkit-filter: brightness(100%);
+  transform: scale(1.1);
 }
 
 /* NUESTRA MISION */
@@ -173,6 +177,18 @@ body {
   .titulo-principal {
     font-size: 2em;
     text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .titulo-secundario,
+  .titulo-terciario {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-item img.custom {
+    height: 400px;
+    object-fit: cover;
   }
 }
 
