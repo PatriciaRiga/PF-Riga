@@ -39,7 +39,7 @@ header {
 }
 header .titulo-principal {
   font-family: "tires", serif;
-  text-align: right;
+  text-align: center;
   font-size: 3em;
 }
 
@@ -176,13 +176,6 @@ body {
 @media (max-width: 576px) {
   header {
     font-size: 1.5em;
-    text-align: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .titulo-principal {
-    font-size: 2em;
-    text-align: center;
   }
 }
 @media (max-width: 576px) {
